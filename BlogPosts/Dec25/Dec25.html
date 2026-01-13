@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<!--
+	Main Page / About Me
+-->
+<html>
+	<head>
+		<title>MJ Cicchinelli</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Content -->
+			<div id="content">
+				<div class="inner">
+
+					<!-- Post -->
+						<article class="box post post-excerpt">
+							<header>
+								<h2>Raising Student's Interest: The Art of the Trick</h2>
+								<p>December 7, 2025;	<a href="Dec25.pdf">View as PDF</a></p>
+							</header>
+							<div class="info">
+								<!--
+									Note: The date should be formatted exactly as it's shown below. In particular, the
+									"least significant" characters of the month should be encapsulated in a <span>
+									element to denote what gets dropped in 1200px mode (eg. the "uary" in "January").
+									Oh, and if you don't need a date for a particular page or post you can simply delete
+									the entire "date" element.
+
+								-->
+							</div>
+							<p>
+								November was a busy month for me. 
+								As a cheap cop-out to stay consistent with posting this blog, I am using this month's upload to re-post my talk from the University of Nebraska Math Department's Graduate Student Seminar. 
+								I gave this talk on Thursday, November 20, and the sections below outline the topics I discussed. 
+								The hour long event consisted of me explaining my personal philosophies in building interest in mathematics followed by a discussion amongst the attending graduate students in how our individual philosophies differ, and how we can meet in the middle to help more students build interest in the field.
+							</p>
+							<p>
+								<strong>Topic 1: Graduate Students</strong>
+							</p>
+							<p>
+								Unconventionally, the first thing I'd like to talk about is graduate students. 
+								These are students who enjoyed math enough growing up that they wanted to make a career out of it. 
+								Furthermore, these are students who did not stop at a bachelors degree; These are students who liked the material enough to <i>participate in its evolution</i>.
+							</p>
+							<p>
+								Now, as the semester winds down, stress runs high, and even among these students math fatigue is rampant. 
+								I find it useful when I experience burnout to remind myself why I enjoy what I do. 
+								For me, it lies in the title: The Art of the Trick.
+							</p>
+							<p>
+								Doing math makes me feel clever, and it is incredibly rewarding to tackle an extraordinarily difficult problem and come out on top. 
+								I love working through topics as if they're puzzles, and I'm hunting for the solution. 
+								I expect that a large number of graduate students (and likely a majority of people who earned some degree in mathematics) agree.
+							</p>
+							<p>
+								However, fatigue starts to set in when problems start to feel completely unfair. 
+								For students, this can be from the number of problems required to solve (e.g. at UNL most first year students take three first-year course sequences. Each of these courses gives weekly homework of 5 to 10 problems, totaling about 25 problems to do every week), the types of problems to be solved being tedious, or most pertinent to this talk, the techniques used to solve said problems being too obscure.
+							</p>
+							<p>
+								This is, to some degree, how undergraduate students without an interest in math may feel. 
+								As an example, I prepared a problem that I used as a lemma in a recent Complex Analysis assignment. 
+								The problem can be tackled in two ways - one tedious and one clever. 
+								The intention is entirely for the reader to believe that the clever way to do the problem is cheap - as if they were not supposed to do that.
+							</p>
+							<p>
+								<b>Problem:</b> Show that the quadratic  \( P(z)=z^2+bz+1 \) has at least one root in the closed unit disk   \( \mathbb{D} = \{z \in \mathbb{C}: |z| \leq 1\} \).
+							</p>
+							<p>
+								If you're reading this and don't already know how to do it, take a moment to try it yourself. 
+								Put yourself in the shoes of an undergraduate calculus student who doesn't fully understand the material and is ramming their head through a wall to solve a tricky optimization problem.
+							</p>
+							<p>
+								<b>Proof:</b> Now, one could go through and see that the roots of \( P(z) \) are given by \( \displaystyle \frac{-b\pm\sqrt{b^2-4}}{2} \) and attempt to find the modulus of this value. 
+								However, the ''sneaky'' solution is done using Vieta's Formulas. 
+								We walk through it together.
+							</p>
+							<p>
+								Suppose \( z_1 \) and \( z_2 \) are such that \( P(z)=(z-z_1)(z-z_2) \). 
+								That is, \( z_1 \) and \( z_2 \) are the roots of \( P(z) \). 
+								In this way, \( P(z)=z^2+bz+1=z^2-(z_1+z_2)z+z_1z_2 \). 
+								Matching coefficients provides \( z_1+z_2=-b \) and \( z_1z_2 = 1 \). 
+								Importantly, we have \( 1 = |z_1z_2| = |z_1|\cdot|z_2| \), meaning that both \( |z_1| \) and \( |z_2| \) cannot be (strictly) greater than 1. 
+								So, one of \( z_1 \) or \( z_2 \) has modulus less than or equal to 1 and lies in the closed unit disk \( \mathbb{D} \).
+								\( \square \)
+							</p>
+							<p>
+								As mentioned, the goal of this is to feel sneaky and unfair. 
+								The reason being that this how I try <i>not</i>> to see problems. 
+								Frustration is, for the most part, pointless in math. 
+								It can be cathartic, yes, to be stuck not knowing and feel as if the game was rigged against you from the beginning. 
+								It may feel as if the blame has been lifted, that it is not your fault, but in the end the problem still needs to be solved <a href="#foot1"><sup>1</sup></a>.
+							</p>
+							<p>
+								The solution I am subtly suggesting is a change in perspective. 
+								Perhaps it is years of basking in hard math problems, or perhaps it is my love of doing puzzles, but instead of feeling as if a problem is rigged or as if a solution is unfair, I think (or maybe make myself think) ''oh cool<a href="#foot2"><sup>2</sup></a>!''
+							</p>
+							<p>
+								<strong>Topic 2: Undergrads</strong>
+							</p>
+							<p>
+								I'm ending the past section rather abruptly out of fear of sounding as if I know more than the graduate students before me. 
+								I also think that this mentality is something that, as instructors, we can bestow upon undergraduate students<a href="#foot3"><sup>3</sup></a>.
+							</p>
+							<p>
+								This mentality, however, risks students seeing mathematics as a ``bag of tricks'' per say. 
+								Students may view math as if it holds a long list of tricks one must memorize to master the field.
+							</p>
+							<p>
+								This isn't entirely wrong, to be fair. 
+								However, it is also not entirely a bad way to view the field. 
+								After all, the quadratic formula or the fact that \( \displaystyle \sin^2(\theta)+\cos^2(\theta) = 1 \) are tools, but can feel like tricks to someone who doesn't look at math with a closer eye. 
+								This is infuriating to most students.
+							</p>
+							<p>
+								Now, I said this is not a terrible way to view the field. 
+								For one, if math is just a bag of tricks, one can simply memorize a large chunk of them and continually practice each one. 
+								But more than that, and this is something I really try to emphasize to my students<a href=#foot4><sup>4</sup></a>, we can <i>make our own tricks</i>.
+							</p>
+							<p>
+								Making our own tricks helps us build connections in the material. 
+								It also makes us feel as if we have a part in our own learning. 
+								As an example, one trick I like showing my students is a quicker quadratic formula: If \( q(x)=ax^2+2bx+c \), then the roots are given by the standard quadratic formula, which simplifies nicely due to the extra factor of 2: \[x = \frac{-2b\pm \sqrt{(2b)^2-4ac}}{2a} = \frac{-b \pm \sqrt{b^2-ac}}{a}.\] 
+								In my experience, this is a formula students like picking up on - the coefficient of \( x \) in a polynomial being even is relatively common, the formula is easy to memorize because it's just the quadratic formula without any coefficients, and it feels personal since its something that ''not everybody knows''.
+							</p>
+							<p>
+								I think this gets at the heart of building undergraduate students interest in math. 
+								Students that view the field as a collection of tricks to memorize can come to realize that a good number of (what they believe are) tricks are fun or enjoyable. 
+								All of a sudden, problems are a bit more bearable because there's a shortcut they find interesting. 
+								The hope is then that students will seek out more tricks and more shortcuts. 
+								I want my students to fall down this rabbit hole and realize that math might be a bag of tricks, but they're fun and they can be learned or invented.
+							</p>
+							<p>
+								If it isn't incredibly clear by now, this is how I fell in love with math; I fell in love with owning my knowledge in this way. 
+								I used to spend time in middle school with a whiteboard expanding polynomials to find a general formula. 
+								I spent hours adding up integers raised to the fourth power to find an expression for \( \displaystyle \sum_{k=1}^n k^4 \). 
+								I wanted tricks and I wanted to make them myself.
+							</p>
+							<p>
+								The philosophy I've been discussing in this post has, in some way, revolved around getting students to own their knowledge. 
+								I think this is how we can get more undergraduates to add more math majors and minors - how we can get more people to fall in love with math. 
+								This is what I try and show my students.
+							</p>
+							<p>
+								I recognize that this philosophy should be challenged, and that's why I am sharing it. 
+								Good philosophy should stand up to scrutiny, after all.
+							</p>
+							<p>
+								<b>Topic 3: Discussion</b>
+							</p>
+							<p>
+								I'm using this portion of the post to share some thoughts thrown around by other graduate students. 
+								These thoughts are not necessarily pokes at my philosophy, but others thoughts on my beliefs, as well as others philosophies in getting students interested in the field.
+							</p>
+							<p>
+								One primary concern was on the generation of in-groups and out-groups based on who knows a given ''trick''. 
+								For instance, a student that has a strong grasp on the material is more eager to learn a trick to shorten their workload, as opposed to a student that is unsure of what is going on. 
+								This is a fantastic point.
+							</p>
+							<p>
+								After some time simmering with these thoughts, I think I have a fair response. 
+								Teaching a student a shortcut to tackle material they're struggling with may hurt, but it can also help. 
+								A student that struggles with function transformations, for instance, may find it useful to learn that any transformation done to the argument of the function is mirrored. 
+								It's a quick rule of thumb that reduces the amount of information they have to memorize, and a student who ponders further may find a relation to inverse functions. 
+								In sum, we find that we may teach all students tricks, regardless of their standing with the material. 
+								The aim is to improve all students understanding, not just accelerate the students at the top.
+							</p>
+							<p>
+								Now, of course this method will likely help the students at the top more than the students at the bottom. 
+								The question that naturally arises is <i>is it worth it?</i> 
+								Already, math courses up to and including the calculus level feel incredibly rushed<a href="#foot5"><sup>5</sup></a>, why waste time teaching material if it doesn't help the students that need it the most?
+							</p>
+							<p>
+								I think this is a completely fair argument. 
+								The beauty of it all is that the style of active learning that UNL enforces in these courses <i>allows</i>> for me to spend time teaching these tricks. 
+								As I circle around the room helping students, I will eventually reach a table that doesn't need help. 
+								This is a good chance to share a shortcut or a trick! 
+								Even better, a projective voice shares these tricks with students at other tables who need more time and angles with the material.
+							</p>
+							<p>
+								There were a couple more ideas discussed at the seminar, including ways to integrate teaching techniques without calling them ''tricks'' or ''shortcuts''. 
+								However, the length of this blog post is getting on the longer side. 
+								This may be something I revisit in the future, but I think this is a good place to stop.
+							</p>
+						</article>
+
+						<article class="box post post-excerpt">
+							<p id="foot1"><sup>1</sup> Although I'm sure many of my calculus students would prefer they remain unsolved.</p>
+							<p id="foot2"><sup>2</sup> In retrospect, this more likely follows from my upbringing. I think it may be my dad's voice I hear saying this as opposed to my own. I'm not sure how likely I am to say ``oh cool'' out loud.</p>
+							<p id="foot3"><sup>3</sup> It is reasonable to ask why I care so much about getting people into math, especially undergrads. Beyond wanting to share the enjoyment of mathematics with as many people as possible, I want math research to thrive. Academia exists as this awkward field where, as with all fields, the more people looking for jobs makes it harder to get one. At the same, the more people working in the field means more is getting done - more branches of math bloom and that means more for me (and all mathematicians) to learn and study. I gave this talk because enrollment in mathematics at UNL had been on a decline in the prior few years; The goal is (in some manner) to have more students earning math minors and majors at the university.</p>
+							<p id="foot4"><sup>4</sup> Both in calculus and in the Putnam Seminar.</p>
+							<p id="foot5"><sup>5</sup> See my comments about precalculus <a href="../Oct25/Oct25.html">here</a>.</p>
+
+						</article>
+				</div>
+			</div>
+
+		<!-- Sidebar -->
+			<div id="sidebar">
+
+				<!-- Logo -->
+					<h1 id="logo"><a href="../../main.html">MJ Cicchinelli</a></h1>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="../../main.html">About Me</a></li>
+							<li class="current"><a href="../../blogs.html">Blog Posts</a></li>
+							<li><a href="../../putnam.html">Putnam Prep Material</a></li>
+							<li><a href="../../addmat.html">Additional Course Material</a></li>
+						</ul>
+					</nav>
+
+
+				<!-- Text -->
+					<section class="box text-style1">
+						<div class="inner">
+							<p>
+								<strong>Striped:</strong> A free and fully responsive HTML5 site
+								template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a>
+							</p>
+						</div>
+					</section>
+
+				<!-- Copyright -->
+					<ul id="copyright">
+						<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>
